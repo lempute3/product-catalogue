@@ -1,0 +1,41 @@
+.product-container .product input[type=number] {
+    width: 45px;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    background-color: #3da9fc3d;
+}
+
+.product-container .checkout-container {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+.product-container .checkout-container .checkout-btn {
+    color: #4CAFFC;
+    background-color: #3da9fc3d;
+    font-weight: bolder;
+}
+
+.v-virtual-scroll::-webkit-scrollbar
+/* Hide scrollbar for Chrome, Safari and Opera */
+{
+    display: none;
+}
+
+.v-virtual-scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    padding: 30px;
+    height: 550px !important;
+    width: 60% !important;
+}

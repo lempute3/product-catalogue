@@ -1,0 +1,36 @@
+
+select option {
+    color: black !important;
+    border: none!;
+}
+
+.product-container img {
+    padding-top: 15px;
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-container .product {
+    width: 300px !important;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+}
+
+.product-container .v-card-title {
+    font-size: small;
+    font-weight: bolder;
+}
+
+.product-container .v-card-subtitle span {
+    color: #4CAFFC;
+    font-weight: bold;
+}
+
+.product-container .v-pagination {
+    padding-top: 30px;
+}
